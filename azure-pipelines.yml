@@ -22,5 +22,5 @@ steps:
 - script: pip install robotframework robotframework-seleniumlibrary
   displayName: 'Install dependencies'
 
-- script: robot --pythonpath TC1.robot
+- powershell: robot --pythonpath . TC1.robot
   displayName: 'run robot scripts'
